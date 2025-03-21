@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google - بحث</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffffff;
+        }
+
+        h1 {
+            color: #4285f4;
+            font-size: 80px;
+            margin-bottom: 20px;
+            font-family: Arial, sans-serif;
+            text-shadow: 1px 1px 2px #aaa;
+        }
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            width: 500px;
+            padding: 12px;
+            border: 1px solid #dfe1e5;
+            border-radius: 25px;
+            font-size: 16px;
+            outline: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin-right: 8px;
+        }
+
+        input[type="text"]:focus {
+            border-color: #4285f4;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+            margin-left: 8px;
+        }
+
+        button:hover {
+            background-color: #306fc4;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            color: #666;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Google</h1>
+    <div class="search-container">
+        <input type="text" placeholder="ابحث في Google...">
+        <button onclick="alert('🚨 هذه مجرد صفحة تعليمية وليست صفحة Google حقيقية 🚨')">بحث</button>
+    </div>
+    <footer>هذه صفحة توعوية تعليمية وليست صفحة Google الأصلية</footer>
+</body>
+</html>
